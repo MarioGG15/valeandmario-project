@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(/src/assets/images/pexels-yuting-gao-1567069.jpg);
+  background-size: cover;
+  background-size: 1400px;
+  background-position-x: center;
+  background-position-y: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

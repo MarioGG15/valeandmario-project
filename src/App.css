@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-container{
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 18rem;
+  background-image: linear-gradient(to bottom right, #231942, #5e548e,#9f86c0);
+  border-radius: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  opacity: 90%;
+  position: relative;
+}
+
+.fa-heart{
+  color: #e0b1cb;
+  font-size: 22px;
+}
+
+.quote{
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+  font-size: 12px;
+  color: #e0b1cb;
+  text-align: center;
+  padding: 0 .25rem .75rem .25rem;
+}
+
+.btn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e548e;
+  color: #e0b1cb;
+}
+
+.btn:hover{
+  background-color: #9f86c0;
+  color: #231942;
+}
